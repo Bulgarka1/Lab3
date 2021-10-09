@@ -10,4 +10,3 @@ namespace ConsoleApp9
         }
     }
 }
-//y = {  5x − 2, x ≥ 2.5   3 + x, − 250 < x < 2.5  2x + 1, x ≤ −250
