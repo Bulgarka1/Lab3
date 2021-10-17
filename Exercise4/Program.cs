@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Задание_4._1
+namespace Exercise3
 {
     class Program
     {
@@ -13,20 +13,26 @@ namespace Задание_4._1
             string x = "Мы нашли ";
             string y = "в лесу.";
             string z = "";
-            if (fungus > 10 && fungus < 21)
+            if (fungus < 10 || fungus < 21)
             {
                 z = "грибов";
             }
-            else if (fungus == 1 || fungus % 10 == 1) ;
+            else if (fungus == 1 || fungus % 10 == 1)
             {
                 z = "гриб";
             }
-            if (fungus > 1 && fungus < 5 || fungus % 10 > 1 && fungus % 10 < 5)
+            else if (fungus % 10 > 1 && fungus % 10 < 5)
             {
                 z = "гриба";
             }
+            else if (fungus % 10 > 4 || fungus % 10 == 0)
+            {
+                z = "грибов";
+            }
             Console.WriteLine($"{x} {fungus} {z} {y}");
-            }          
         }
     }
+}
+
+
 
