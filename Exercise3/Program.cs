@@ -18,22 +18,22 @@ namespace Exercise3
             switch (figure)
             {
                 case 1:
-                    Console.WriteLine("Диагональ 4");
+                    Console.WriteLine("Вертикаль 4");
                     break;
                 case 2:
-                    Console.WriteLine("Диагональ 5");
+                    Console.WriteLine("Вертикаль 5");
                     break;
                 case 3:
-                    Console.WriteLine("Диагонали 3,6");
+                    Console.WriteLine("Вертикаль 3,6");
                     break;
                 case 4:
-                    Console.WriteLine("Диагонали 1,8");
+                    Console.WriteLine("Вертикаль 1,8");
                     break;
                 case 5:
-                    Console.WriteLine("Диагонали 2,7");
+                    Console.WriteLine("Вертикаль 2,7");
                     break;
                 case 6:
-                    Console.WriteLine("Диагонали 1-8");
+                    Console.WriteLine("Вертикаль 1-8");
                     break;
             }
         }
